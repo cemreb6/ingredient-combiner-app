@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/signInPage">
+
+    <fragment
+        android:id="@+id/signInPage"
+        android:name="com.example.dinnerforyou.Fragments.SignInPage"
+        android:label="fragment_sign_in_page"
+        tools:layout="@layout/fragment_sign_in_page" >
+        <action
+            android:id="@+id/action_signInPage_to_resetPasswordPage"
+            app:destination="@id/resetPasswordPage" />
+        <action
+            android:id="@+id/action_signInPage_to_signUpPage"
+            app:destination="@id/signUpPage" />
+        <action
+            android:id="@+id/action_signInPage_to_selectIngredient"
+            app:destination="@id/selectIngredient"
+            app:popUpTo="@id/selectIngredient" />
+    </fragment>
+    <fragment
+        android:id="@+id/resetPasswordPage"
+        android:name="com.example.dinnerforyou.Fragments.ResetPasswordPage"
+        android:label="fragment_reset_password_page"
+        tools:layout="@layout/fragment_reset_password_page" />
+    <fragment
+        android:id="@+id/signUpPage"
+        android:name="com.example.dinnerforyou.Fragments.SignUpPage"
+        android:label="@string/signupheader"
+        tools:layout="@layout/fragment_sign_up_page" >
+        <action
+            android:id="@+id/action_signUpPage_to_selectIngredient"
+            app:destination="@id/selectIngredient"
+            app:popUpTo="@id/selectIngredient" />
+    </fragment>
+    <fragment
+        android:id="@+id/selectIngredient"
+        android:name="com.example.dinnerforyou.Fragments.SelectIngredient"
+        android:label="@string/findingredient"
+        tools:layout="@layout/fragment_select_ingredient" >
+        <action
+            android:id="@+id/selectToList"
+            app:destination="@id/ingredientsList"
+            app:enterAnim="@anim/nav_default_enter_anim" />
+        <action
+            android:id="@+id/action_selectIngredient_to_recipeCombinationFragment"
+            app:destination="@id/recipeCombinationFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/ingredientsList"
+        android:name="com.example.dinnerforyou.Fragments.IngredientsList"
+        tools:layout="@layout/fragment_ingredients_list" >
+        <argument android:name="type" />
+        <action
+            android:id="@+id/action_ingredientsList_to_selectIngredient"
+            app:destination="@id/selectIngredient" />
+    </fragment>
+    <fragment
+        android:id="@+id/profileFragment"
+        android:name="com.example.dinnerforyou.Fragments.ProfileFragment"
+        android:label="fragment_profile"
+        tools:layout="@layout/fragment_profile" >
+        <action
+            android:id="@+id/action_profileFragment_to_signInPage"
+            app:destination="@id/signInPage"
+            app:popUpTo="@id/signInPage" />
+        <action
+            android:id="@+id/action_profileFragment_to_favoriteRecipesFragment"
+            app:destination="@id/favoriteRecipes" />
+    </fragment>
+    <fragment
+        android:id="@+id/searchRecipe"
+        android:name="com.example.dinnerforyou.Fragments.SearchRecipe"
+        android:label="fragment_search_recipe"
+        tools:layout="@layout/fragment_search_recipe" >
+        <action
+            android:id="@+id/action_searchRecipe_to_recipeDetailsPage"
+            app:destination="@id/recipeDetailsPage"
+            app:popUpTo="@id/searchRecipe" />
+    </fragment>
+    <fragment
+        android:id="@+id/favoriteRecipes"
+        android:name="com.example.dinnerforyou.Fragments.FavoriteRecipesFragment"
+        android:label="fragment_recipes"
+        tools:layout="@layout/fragment_favorite_recipes" >
+        <action
+            android:id="@+id/action_recipesFragment_to_recipeDetailsPage"
+            app:destination="@id/recipeDetailsPage"
+            app:popUpTo="@id/favoriteRecipes" />
+    </fragment>
+    <fragment
+        android:id="@+id/recipeDetailsPage"
+        android:name="com.example.dinnerforyou.Fragments.RecipeDetailsPage"
+        android:label="fragment_recipe_details_page"
+        tools:layout="@layout/fragment_recipe_details_page" />
+    <fragment
+        android:id="@+id/recipeCombinationFragment"
+        android:name="com.example.dinnerforyou.Fragments.RecipeCombinationFragment"
+        android:label="fragment_recipe_combination"
+        tools:layout="@layout/fragment_recipe_combination" >
+        <action
+            android:id="@+id/action_recipeCombinationFragment_to_recipeDetailsPage"
+            app:destination="@id/recipeDetailsPage"
+            app:popUpTo="@id/recipeCombinationFragment" />
+    </fragment>
+</navigation>

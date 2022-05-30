@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/Lenovo/AndroidStudioProjects/DINNERFORYOU/app/src/main/res/layout/activity_main.xml" value="0.1" />
+        <entry key="..\:/Users/Lenovo/AndroidStudioProjects/DINNERFORYOU/app/src/main/res/layout/added_items_list.xml" value="0.2" />
+        <entry key="..\:/Users/Lenovo/AndroidStudioProjects/DINNERFORYOU/app/src/main/res/layout/fragment_favorite_recipes.xml" value="0.24456521739130435" />
+        <entry key="..\:/Users/Lenovo/AndroidStudioProjects/DINNERFORYOU/app/src/main/res/layout/fragment_ingredients_list.xml" value="0.25" />
+        <entry key="..\:/Users/Lenovo/AndroidStudioProjects/DINNERFORYOU/app/src/main/res/layout/fragment_profile.xml" value="0.264" />
+        <entry key="..\:/Users/Lenovo/AndroidStudioProjects/DINNERFORYOU/app/src/main/res/layout/fragment_recipe_combination.xml" value="0.24365942028985507" />
+        <entry key="..\:/Users/Lenovo/AndroidStudioProjects/DINNERFORYOU/app/src/main/res/layout/fragment_recipe_details_page.xml" value="0.1" />
+        <entry key="..\:/Users/Lenovo/AndroidStudioProjects/DINNERFORYOU/app/src/main/res/layout/fragment_recipes.xml" value="0.1" />
+        <entry key="..\:/Users/Lenovo/AndroidStudioProjects/DINNERFORYOU/app/src/main/res/layout/fragment_reset_password_page.xml" value="0.264" />
+        <entry key="..\:/Users/Lenovo/AndroidStudioProjects/DINNERFORYOU/app/src/main/res/layout/fragment_search_ingredient.xml" value="0.21603260869565216" />
+        <entry key="..\:/Users/Lenovo/AndroidStudioProjects/DINNERFORYOU/app/src/main/res/layout/fragment_search_recipe.xml" value="0.2418478260869565" />
+        <entry key="..\:/Users/Lenovo/AndroidStudioProjects/DINNERFORYOU/app/src/main/res/layout/fragment_select_ingredient.xml" value="0.1" />
+        <entry key="..\:/Users/Lenovo/AndroidStudioProjects/DINNERFORYOU/app/src/main/res/layout/fragment_sign_in_page.xml" value="0.1" />
+        <entry key="..\:/Users/Lenovo/AndroidStudioProjects/DINNERFORYOU/app/src/main/res/layout/fragment_sign_up_page.xml" value="0.2" />
+        <entry key="..\:/Users/Lenovo/AndroidStudioProjects/DINNERFORYOU/app/src/main/res/layout/ingredient_list.xml" value="0.21920289855072464" />
+        <entry key="..\:/Users/Lenovo/AndroidStudioProjects/DINNERFORYOU/app/src/main/res/layout/ingredient_types.xml" value="0.1" />
+        <entry key="..\:/Users/Lenovo/AndroidStudioProjects/DINNERFORYOU/app/src/main/res/layout/list.xml" value="0.25" />
+        <entry key="..\:/Users/Lenovo/AndroidStudioProjects/DINNERFORYOU/app/src/main/res/layout/recipe_list.xml" value="0.24365942028985507" />
+        <entry key="..\:/Users/Lenovo/AndroidStudioProjects/DINNERFORYOU/app/src/main/res/layout/recipes.xml" value="0.1" />
+        <entry key="..\:/Users/Lenovo/AndroidStudioProjects/DINNERFORYOU/app/src/main/res/menu/battom_nav_bar.xml" value="0.25" />
+        <entry key="..\:/Users/Lenovo/AndroidStudioProjects/DINNERFORYOU/app/src/main/res/menu/bottom_nav_bar.xml" value="0.25" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

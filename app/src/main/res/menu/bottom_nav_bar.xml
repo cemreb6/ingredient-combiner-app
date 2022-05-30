@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/selectIngredient"
+        android:icon="@drawable/ic_baseline_food_bank_24"
+        android:title="@string/findRecipeTitle"/>
+    <item
+        android:id="@+id/searchRecipe"
+        android:icon="@drawable/ic_baseline_search_24"
+        android:title="@string/searchTitle"
+        />
+    <item
+        android:id="@+id/profileFragment"
+        android:icon="@drawable/ic_baseline_person_24"
+        android:title="@string/profile" />
+</menu>

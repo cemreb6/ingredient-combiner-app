@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="padding">16dp</dimen>
+    <dimen name="header2Size">25sp</dimen>
+    <dimen name="headersize">29sp</dimen>
+    <dimen name="imageSize">100dp</dimen>
+    <dimen name="textSize">18sp</dimen>
+    <dimen name="iconSize">60dp</dimen>
+    <dimen name="cardElevation">10dp</dimen>
+    <dimen name="cardCornerRadius">8dp</dimen>
+</resources>
